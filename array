@@ -1,0 +1,21 @@
+package assistedProject;
+
+public class array {
+	public static void main(String[] args) 
+	{
+
+		int a[]= {12,16,18,19,20};
+		for(int i=0;i<6;i++) 
+		{
+		System.out.println("Elements of array a: "+a[i]);
+		}
+
+
+		int[][] b = {
+		            {3,6,9}, 
+		            {12, 15, 18} 
+		            };
+		      
+		      System.out.println("\nLength of row 1: " + b[0].length);
+	}
+}
